@@ -1,5 +1,6 @@
 *{
   padding: 0px;
+  font-family: 'Dosis', sans-serif;
 }
 
 nav{
@@ -53,8 +54,8 @@ h1{
 }
 
 .content{
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
   font-size: 18pt;
   display: flex;
   justify-content: flex-end;
