@@ -9,21 +9,28 @@
   <body>
     <nav>
       <a href="index.html">Home</a>
-      <p>About</p>
+      <a href="#chara"> Characters </a>
+      <div class="popup" onclick='myFunction()'> About
+        <span class="popuptext" id="myPopup"> Website for Web Dev Midterm and for appreciation of what Danganronpa v3 is! 
+        info credit: <a href='https://danganronpa.fandom.com/wiki'> Danganronpa Wiki </a></span>
+      </div>
     </nav>
 
     <div>
       <img src="headerImage.jpg" alt="header">
     </div>
-
+    <h1> What's Danganronpa v3? </h1>
     <div class="content">
+      <div>
       <p>Danganronpa V3: Killing Harmony, known in Japan as New Dangan Ronpa V3: Everyone's New Semester of Killing (ニューダンガンロンパV3 みんなのコロシアイ新学期) is a Japanese visual novel game developed by Spike Chunsoft. It is the third main title in the Danganronpa series. It was released in Japan on January 12th, 2017 for PlayStation 4 and PlayStation Vita. It was launched on PlayStation 4, PlayStation Vita, and Steam for PC in North America on September 26th, 2017, and in Europe on September 29th, 2017.
 
       A promotional demo called Danganronpa V3: Killing Harmony (Demo Version) was released in Japan on December 20th, 2016[18]. The Demo was later released in North America, Europe, and Australia on August 25th, 2017[3].</p>
-
+    </div>
+    <div>
       <p>Official Synopsis: "Welcome to a new world of Danganronpa, and prepare yourself for the biggest, most exhilarating episode yet. Set in a "psycho-cool" environment, a new cast of 16 characters find themselves kidnapped and imprisoned in a school. Inside, some will kill, some will die, and some will be punished. Reimagine what you thought high-stakes, fast-paced investigation was as you investigate twisted murder cases and condemn your new friends to death. Forget what you thought you knew about Danganronpa and join a completely new cast of Ultimates for a brand-new beginning. In a world where everyone is trying to survive, nobody’s motivations are quite what they seem. Use your skills to solve each new murder or meet a gruesome end. The world is shaped by our perception of it. Fast-paced trial scenes will require lies, quick wits, and logic to guide your classmates to the right conclusions." </p>
     </div>
-
+    </div>
+    <a name="chara"> <h1> Characters </h1> </a>
     <div class="portraitContainer">
       <a href="chara3.html">
         <img src="rantaroPortrait.jpg" alt="header" onmouseover="this.src='rantaroPortraitInverse.jpg';" onmouseout="this.src='rantaroPortrait.jpg';";>
@@ -75,5 +82,14 @@
         <img src="shuichiPortrait.png" alt="header" onmouseover="this.src='shuichiPortraitInverse.png';" onmouseout="this.src='shuichiPortrait.png';";>
       </a>
     </div>
+    <script>
+    // When the user clicks on div, open the popup
+    function myFunction() {
+      //alert('popup');
+      var popup = document.getElementById("myPopup");
+      // alert(popup);
+      popup.classList.toggle("show");
+    }
+    </script>
   </body>
 </html>
