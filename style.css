@@ -44,6 +44,7 @@ div img{
   height: auto;
 }
 
+/*make each of the pictures even and into a nice grid*/
 .portraitContainer{
   display: flex;
   justify-content: space-around;
@@ -58,6 +59,7 @@ h1{
   font-style: bold;
 }
 
+/*what each text-heavy part has*/
 .content{
   padding-right: 100px;
   padding-left: 100px;
@@ -74,14 +76,7 @@ h1{
   padding: 15px;
 }
 
-
-/* .container{
-  display: flex;
-  min-width: 250vmin;
-  justify-content: flex-end;
-  border: 1px solid white;
-  position: relative;
-} */
+/*make sure nothing changes with the link properties*/
 
 .portraitContainer > a{
   width: 24.5%;
